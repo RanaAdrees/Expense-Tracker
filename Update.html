@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expence Tracker App</title>
+</head>
+
+<body id="updateExpensePage">
+    <div class="addMainConatiner">
+        <h1>Update Existing Expense</h1>
+        <div class="detailsConatiner">
+            <div class="detailsName">
+                <h4>Expense Summary</h4>
+                <h4>Expense Description</h4>
+                <h4>Amount</h4>
+                <h4>Type</h4>
+                <h4>Time</h4>
+            </div>
+            <form action="">
+                <div class="detailsInputContainer">
+                    <input type="text" id="UpdateSummaryInput" class="detailInput" placeholder="Expense Summary here"
+                        required>
+                    <input type="text" id="UpdateDescInput" class="detailInput" placeholder="Expense Description here"
+                        required>
+                    <input type="number" id="UpdateAmmountInput" class="detailInput" placeholder="Expense Ammount here"
+                        required>
+                    <input type="text" id="UpdateTypeInput" class="detailInput" placeholder="Expense Type here" required>
+                    <input type="text" id="UpdateTimeInput" class="detailInput" disabled>
+                </div>
+        </div>
+        <button id="update_btn" type="submit">Update</button>
+        </form>
+        <a href="./Home.html" id="backHomeLink">Go Back To Home</a>
+    </div>
+    <script src="./Task2.js"></script>
+</body>
+
+</html>

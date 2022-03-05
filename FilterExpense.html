@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <title>Expence Tracker App</title>
+</head>
+
+<body id="FilterPage">
+    <div class="main_container">
+        <h1 class="heading_page">Filter Expenses</h1>
+        <div class="container">
+            <div class="inputFilterContainer">
+                <label for="" id="typetxt">Type</label>
+
+                <select id="typeSelect" >
+                  <!-- <option value="">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option> -->
+                </select>
+                <label for="" style="display: block;" id="range_txt">Range</label>
+                <div class="range">
+                    <input type="number" id="startRangeVal" class="range_val">
+                    <input type="number" id="endRangeVal" class="range_val">
+                </div>
+                <button id="showFilterResult">Show Filtered Results</button>
+               
+            </div>
+            <table class="table">
+                <thead class="">
+                    <tr class="head_row">
+                        <td class="Sr">Sr.</td>
+                        <td class="expence">Expense Summary</td>
+                        <td class="desc">Description</td>
+                        <td class="price">Price</td>
+                        <td class="type">Type</td>
+                        <td class="date">Date</td>
+                    </tr>
+                </thead>
+                <tbody id="table_body_filter">
+                    <!-- <tr class="data_row">
+                        <td class="Sr">Sr.</td>
+                        <td class="expence">Lorem ipsum dolor sit amet.</td>
+                        <td class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim excepturi,
+                            possimus omnis deserunt quasi a.</td>
+                        <td class="price">Rs.24000</td>
+                        <td class="type">Education</td>
+                        <td class="date">Lorem ipsum dolor sit amet consectetur.</td>
+                        <td class="options">
+                            <button id="btn_update" href="#">Update</button>
+                            <button id="btn_delete" href="#">Delete</button>
+                        </td>
+                    </tr> -->
+
+                </tbody>
+            </table>
+            <a href="./Home.html" id="backHomeLink">Go Back To Home</a>
+        </div>
+    </div>
+    <script src="./Task2.js"></script>
+</body>
+
+</html>
